@@ -12,9 +12,9 @@ for (j in 1:100){
   # dado 1
   text(0,10, dados[1], cex=10)  
   # dado 2
-  text(0,-10, dados[2], cex=10) 
+  text(0,-30, dados[2], cex=10) 
   # suma
-  text(0,30, paste("Suma =", suma), cex=2) 
+  text(0,40, paste("Suma =", suma), cex=2) 
   
   Sys.sleep(1)
 }
